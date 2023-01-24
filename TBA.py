@@ -5,11 +5,11 @@ import time
 #Look at TBAai before judging me. I started this when i was new, and i still am pretty new to python.
 print("MESSAGE FROM CREATOR: PLEASE ONLY TYPE THINGS WHEN YOU ARE ASKED TO, OR WHEN THE CURSOR AUTO-MOVES TO THE TYPE POSITION, OR THE STORY WILL MESS UP.")
 time.sleep(5)
-name = input("system: what is your name? ")
-age = input("system: how old are you? ")
+name = input("system: what is your name? \n")
+age = input("system: how old are you? \n")
 Nines_Response = False
 
-gender = input("system: are you a, boy, or girl, or other? ")
+gender = input("system: are you a, boy, or girl, or other? \n")
 
 if gender == "boy":
     Pronoun = "he"
@@ -28,13 +28,13 @@ time.sleep(5)
 print(" ")
 print(" ")
 
-Continue= input("system: Begin story? y/n ")
+Continue= input("system: Begin story? y/n \n")
 print(" ")
 
 if Continue == "y" or "yes":
     print("Story Starting... ")
     time.sleep(5)
-    hello = input(f"computer: Hello {name} ")
+    hello = input(f"computer: Hello {name} \n")
     print(" ")
 elif Continue == "n" or "no":
     print("Ending 1: don't want to play.")
@@ -47,7 +47,7 @@ time.sleep(3)
 print(f"computer: I have been waiting for you...")
 time.sleep(5)
 print(" ")
-feeling = input(f"computer: How are you? ")
+feeling = input(f"computer: How are you? \n")
 print(" ")
 time.sleep(1)
 print(f"computer: actually I already knew")
@@ -61,7 +61,7 @@ print(" ")
 print(" ")
 time.sleep(6)
 
-GAME = input(f"computer: now {name}, do you want to play a game? y/n ")
+GAME = input(f"computer: now {name}, do you want to play a game? y/n \n")
 
 #figure out a way to get this response to be used later.
 
@@ -95,7 +95,7 @@ time.sleep(5)
 print(" ")
 print(f"computer: so {name} what is the meaning of life?")
 time.sleep(2)
-life = input(f"system: {name} what do you think? #this should be a verb# ")
+life = input(f"system: {name} what do you think? #this should be a verb# \n")
 time.sleep(2)
 print(" ")
 print(f"computer: ahh you think it is {life}")
@@ -114,7 +114,7 @@ print(f"computer: I am All knowing ask me a question")
 time.sleep(2)
 print(" ")
 print(f"system: options to respond (type the option number): Option 1: What is the meaning of life? OR, Option 2: Who are you? OR, Option 3: Where am I?")
-Q = input(f"system: {name} type your option number here: ")
+Q = input(f"system: {name} type your option number here: \n")
 
 if Q == "1":
    
@@ -171,7 +171,7 @@ time.sleep(3)
 print(" ")
 print(f"???: did he ask you to play a game?")
 time.sleep(2)
-game2 = input(f"system: please respond y/n ")
+game2 = input(f"system: please respond y/n \n")
 
 if game2 == "n":
     #make this do something please.
@@ -200,7 +200,7 @@ elif game2 == "y":
     print("Nines: computer, is an algorithim designed to kidnap your mind, upload all the data on your brain, and use your knowledge for its own purposes, it has destroyed civilizations and universes in search of knowledge.")
     time.sleep(4)
     print(" ")
-    Nines_Response = input(f"system: {name} you have a choice here, you may choose: Option 1: I don't believe you Nines. OR Option 2: Why? OR Option 3: Who created computer? ")
+    Nines_Response = input(f"system: {name} you have a choice here, you may choose: Option 1: I don't believe you Nines. OR Option 2: Why? OR Option 3: Who created computer? \n")
 #responses
    #response 1
 if Nines_Response == "1":
@@ -221,7 +221,7 @@ if Nines_Response == "1":
     print(f"computer: Did anything happen in my absence?")
     print(" ")
     time.sleep(3)
-    absence = input(f"system: you have options here: Option 1: Yes, a thing named Nines came and bothered me. OR Option 2: No, why would you ask? ")
+    absence = input(f"system: you have options here: Option 1: Yes, a thing named Nines came and bothered me. OR Option 2: No, why would you ask? \n")
     print(" ")
 
     if absence == "1":
@@ -245,7 +245,7 @@ if Nines_Response == "1":
         time.sleep(3)
         print(f"computer: Is this true {name}?")
         #will nines live?
-        true_or_false = input("system: pick y/n: ")
+        true_or_false = input("system: pick y/n: \n")
         if true_or_false == "y":
             time.sleep(4)
             print(" ")
