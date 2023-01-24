@@ -1,5 +1,7 @@
 import time
-
+#i had ChatGPT3 help me a bit, know i need to apply this to my original code, for all my story. as well as i need to remove the prints i used to start new lines. I need 
+#to put /n at the start of all my input commands. Finally, I need to remove the time.sleeps becuase i can instead just use the typing_print to have the player read 
+#it in time. i think 0.03 is the best time, let me know what you think if you read this could help.
 def typing_print(text, delay=0.03, end=''):
     for letter in text:
         print(letter, end=end, flush=True)
