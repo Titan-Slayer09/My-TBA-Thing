@@ -1,7 +1,8 @@
 import time
 #begining
 
-#thid is the original version of my code, unchanged, repetative, unfinished, and boring, also inefficent.
+#thid is the original version of my code, unchanged, repetative, unfinished, and boring, also inefficent. 
+#Look at TBAai before judging me. I started this when i was new, and i still am pretty new to python.
 print("MESSAGE FROM CREATOR: PLEASE ONLY TYPE THINGS WHEN YOU ARE ASKED TO, OR WHEN THE CURSOR AUTO-MOVES TO THE TYPE POSITION, OR THE STORY WILL MESS UP.")
 time.sleep(5)
 name = input("system: what is your name? ")
