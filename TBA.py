@@ -1,5 +1,7 @@
 import time
 #begining
+
+#thid is the original version of my code, unchanged, repetative, unfinished, and boring, also inefficent.
 print("MESSAGE FROM CREATOR: PLEASE ONLY TYPE THINGS WHEN YOU ARE ASKED TO, OR WHEN THE CURSOR AUTO-MOVES TO THE TYPE POSITION, OR THE STORY WILL MESS UP.")
 time.sleep(5)
 name = input("system: what is your name? ")
