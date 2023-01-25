@@ -1,7 +1,7 @@
 import time
 #begining
 
-def sp(text, delay=0.03, end=''):
+def sp(text, delay=0.04, end=''):
     for letter in text:
         print(letter, end=end, flush=True)
         time.sleep(delay)
@@ -14,6 +14,7 @@ name = input("\n system: what is your name? ")
 age = input("\n system: how old are you? ")
 
 gender = input("\n system: are you a, boy, or girl, or other? ")
+pronoun = "they/them"
 
 if gender == "boy":
     Pronoun = "he"
@@ -183,6 +184,7 @@ elif game2 == "y":
     print(" ")
     sp("???: my name is 097461999 but you can call me Nines.")
     print(" ")
+    sp("Nines: look what I know about computer is that he is evil.")
     sp("Nines: my best guess is that computer, is an algorithim, designed to kidnap your mind, upload all the data on your brain, and use your knowledge for its own purposes, evidence shows it has destroyed civilizations and universes in search of knowledge.")
     print(" ")
     Nines_Response = input(f"\n system: {name} you have a choice here, you may choose: Option 1: I don't believe you Nines. OR Option 2: Why? OR Option 3: Who created computer? please type 1, 2, or 3: ")
@@ -224,7 +226,7 @@ if Nines_Response == "1":
         time.sleep(1)
         print(" ")
         sp(f"Nines: I'm sorry my lord, I only wished to tell {name} of how this place works")
-        sp(f"computer: Is this true {name}?")
+        sp(f"\n computer: Is this true {name}?")
         #will nines live?
         true_or_false = input("\n system: pick y/n: ")
         if true_or_false == "y":
