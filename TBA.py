@@ -185,7 +185,7 @@ elif game2 == "y":
     sp("???: my name is 097461999 but you can call me Nines.")
     print(" ")
     sp("Nines: look what I know about computer is that he is evil.")
-    sp("Nines: my best guess is that computer, is an algorithim, designed to kidnap your mind, upload all the data on your brain, and use your knowledge for its own purposes, evidence shows it has destroyed civilizations and universes in search of knowledge.")
+    sp("\nNines: my best guess is that computer, is an algorithim, designed to kidnap your mind, upload all the data on your brain, and use your knowledge for its own purposes, evidence shows it has destroyed civilizations and universes in search of knowledge.")
     print(" ")
     Nines_Response = input(f"\n system: {name} you have a choice here, you may choose: Option 1: I don't believe you Nines. OR Option 2: Why? OR Option 3: Who created computer? please type 1, 2, or 3: ")
 #responses
@@ -264,7 +264,7 @@ if Nines_Response == "1":
             time.sleep(1)
             print(" ")
             sp("system: Computer has opened: Hand.svg")
-            sp("suddenly, out of thin air appears a massive, almost cartoony, white hand, no fingernails or skin just a bone-white hand that's finger is probably bigger than your new body.")
+            sp("\nsuddenly, out of thin air appears a massive, almost cartoony, white hand, no fingernails or skin just a bone-white hand that's finger is probably bigger than your new body.")
             time.sleep(2)
             print(" ")
             sp("as you can see here Nines, my hand can easily...")
