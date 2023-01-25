@@ -327,4 +327,4 @@ else:
     #this is the current game end, i will add more later.
     #what the AI has taught us is that  i need to seperate different parts of the story into functions.
     # i need to implement slow text. and also add /n to the begining of all my "input" commands
-    #TBAai has what im looking for kinda, just not with all my story.
+    #TBAai has what im looking for kinda, just not with all my story...
